@@ -1,0 +1,26 @@
+This repository is created only for Educational purpose.
+To use it.
+Run java compiler:
+
+javac *.java
+------------------------
+Then run java:
+------------------------
+java webscanner [switches]
+------------------------
+switches(optional):
+=========
+--tHOST="example.com" to set the HOST for scanning
+--tPORT="80" to set the port for scan or attack
+--scan=[scanOptions] to set the scan type
+--file="filename.ext" to set the file name
+
+scanOptions:
+=========
+FPS to scan for all open ports
+FFS to scan a set of IPs to check which one allows anonymous file upload or not
+FTP to scan a IP to check it allows anonymous file upload or not
+
+Hope you like this...
+for any suggestion and improvement please Report a issue.
+Sharing is Caring.
